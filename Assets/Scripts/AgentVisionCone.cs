@@ -11,6 +11,7 @@ public class AgentVisionCone : MonoBehaviour
         if (other.tag == "Player")
         {
             aIEnemyFinal.playerInVisionRegion = true;
+            print("in vision cone");
         }
     }
 

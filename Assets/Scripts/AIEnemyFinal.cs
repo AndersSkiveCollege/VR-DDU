@@ -179,7 +179,7 @@ public class AIEnemyFinal : MonoBehaviour
 
         wondering = false;
     }
-
+    
     IEnumerator CheckIfPlayerIsVisible()
     {
         float checkDelay = 1;
